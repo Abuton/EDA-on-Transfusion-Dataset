@@ -2,6 +2,7 @@
 Exploratory Data Analysis on a small Transfusion Dataset of the year 2017
 
 Added some new explanations
+Simply put, ViolinPlot is the combination of a box-plot and a kernel-density-plot. It explains the 5 statistics that a box plot reveals and more with the kdplot
 
 ```def plot_comparison(x, title):
     fig, ax = plt.subplots(3, 1, sharex=True)
